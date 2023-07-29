@@ -1500,7 +1500,7 @@ input::-moz-focus-inner {
 }
 
 .section-desc {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Montserrat", serif;
   font-size: 5.4rem;
   font-weight: 400;
   line-height: 1.259;
@@ -1509,7 +1509,7 @@ input::-moz-focus-inner {
 }
 
 .item-title {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Montserrat", serif;
   font-size: 3.6rem;
   font-weight: 500;
   line-height: 1.222;
@@ -2232,6 +2232,7 @@ input::-moz-focus-inner {
 }
 
 .timeline::before {
+  font-family: 'Raleway', 'sans-serif';
   content: "";
   display: block;
   width: 1px;
@@ -2243,6 +2244,7 @@ input::-moz-focus-inner {
 }
 
 .timeline::after {
+  font-family: 'Raleway', 'sans-serif';
   content: "";
   display: block;
   width: 5.6rem;
@@ -2254,6 +2256,7 @@ input::-moz-focus-inner {
 }
 
 .timeline__icon-wrap {
+  font-family: 'Raleway', 'sans-serif';
   display: block;
   width: 6rem;
   height: 6rem;
