@@ -53,6 +53,7 @@
  * ------------------------------------------------------------------- */
 html {
   font-size: 10px;
+  
 }
 
 @media screen and (max-width:400px) {
@@ -183,8 +184,8 @@ p img {
 }
 
 p.lead {
-  font-family: "Lora", serif;
-  font-weight: 300;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
   font-size: 2.4rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
@@ -193,6 +194,7 @@ p.lead {
 
 @media screen and (max-width:1200px) {
   p.lead {
+    font-family: 'Raleway', 'sans-serif';
     font-size: 2.2rem;
   }
 
@@ -880,6 +882,7 @@ button.btn--medium {
 
 .btn--large,
 button.btn--large {
+  font-family: 'Raleway', 'sans-serif';
   height: 6.8rem !important;
   line-height: 6.4rem !important;
 }
@@ -1907,6 +1910,7 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
+  font-family: 'Raleway', 'sans-serif';
   width: 100%;
   height: 100vh;
   min-height: 792px;
@@ -1914,6 +1918,7 @@ input::-moz-focus-inner {
 }
 
 .intro-content {
+  font-family: 'Raleway', 'sans-serif';
   height: 100%;
   max-width: 1140px;
   padding-top: 20vh;
@@ -1927,7 +1932,7 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic.jpg);
+  background-image: url(../images/profile.png);
   background-size: cover;
   position: absolute;
   top: 20%;
@@ -1959,6 +1964,7 @@ input::-moz-focus-inner {
 }
 
 .intro-text {
+  font-family: 'Raleway', 'sans-serif';
   -webkit-transform: translate3d(0, -3.6rem, 0);
   transform: translate3d(0, -3.6rem, 0);
   position: static;
@@ -1966,15 +1972,16 @@ input::-moz-focus-inner {
 }
 
 .intro-text h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', 'sans-serif';
   font-size: 2.4rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.333;
   color: #cf1767;
   margin-top: 0;
 }
 
 .intro-text h1 {
+  font-family: 'Raleway', 'sans-serif';
   font-size: 7.8rem;
   font-weight: 500;
   line-height: 1.179;
@@ -1983,7 +1990,7 @@ input::-moz-focus-inner {
 }
 
 .intro-scroll {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2;
@@ -2185,9 +2192,10 @@ input::-moz-focus-inner {
 }
 
 .about-me__text {
+  font-family: 'Raleway', sans-serif;
   -webkit-columns: 2 360px;
   -moz-columns: 2 360px;
-  columns: 2 360px;
+  columns: 2 560px;
   column-gap: 64px;
 }
 
@@ -2890,7 +2898,7 @@ input::-moz-focus-inner {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
   .masonry__brick {
     padding: 0 24px;
     margin-bottom: 48px;
