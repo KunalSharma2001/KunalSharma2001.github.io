@@ -84,6 +84,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
+  font-family: 'Raleway', 'sans-serif';
   color: #cf1767;
   transition: all 0.3s ease-in-out;
 }
@@ -91,11 +92,13 @@ a {
 a:hover,
 a:focus,
 a:active {
+  font-family: 'Raleway', 'sans-serif';
   color: #000000;
 }
 
 a:hover,
 a:active {
+  font-family: 'Raleway', 'sans-serif';
   outline: 0;
 }
 
@@ -106,7 +109,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: 'Raleway', 'sans-serif';
   font-weight: 500;
   font-style: normal;
   color: #000000;
@@ -163,6 +166,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
+  font-family: 'Raleway', 'sans-serif';
   font-size: 2.1rem;
   line-height: 1.286;
 }
