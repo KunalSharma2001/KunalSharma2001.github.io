@@ -1524,6 +1524,9 @@ input::-moz-focus-inner {
 .ss-dark .section-heading,
 .ss-dark .section-desc {
   color: #ffffff;
+  font-size: 40px;
+  font-family: 'Raleway', 'sans-serif';
+  letter-spacing: 0.1rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1698,7 +1701,7 @@ input::-moz-focus-inner {
 }
 
 .header-social {
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 0;
   position: absolute;
   top: 0;
@@ -3296,6 +3299,8 @@ input::-moz-focus-inner {
 .contact-main a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   display: inline-block;
+  font-size: 50px;
+  font-family: 'Montserrat','sans-serif';
 }
 
 .contact-main a:hover,
@@ -3337,12 +3342,14 @@ input::-moz-focus-inner {
 
 .contact-infos a {
   color: #ffffff;
+  font-family: 'Raleway', 'sans';
 }
 
 .contact-infos a:hover,
 .contact-infos a:focus,
 .contact-infos a:active {
-  color: #cf1767;
+  color: #3e0c8f;
+  font-family: 'Raleway', 'sans-serif';
 }
 
 .contact-social ul {
