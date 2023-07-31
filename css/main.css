@@ -1513,7 +1513,7 @@ input::-moz-focus-inner {
 }
 
 .item-title {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", "sans-serif";
   font-size: 3.6rem;
   font-weight: 500;
   line-height: 1.222;
