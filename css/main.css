@@ -1504,7 +1504,7 @@ input::-moz-focus-inner {
 }
 
 .section-desc {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", "sans-serif";
   font-size: 5.4rem;
   font-weight: 400;
   line-height: 1.259;
